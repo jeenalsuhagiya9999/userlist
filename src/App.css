@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left !important;
 }
 
 .App-logo {
@@ -14,14 +14,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  color: black;
+  text-align: left;
 }
 
 .App-link {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+input {
+margin-bottom: 10px !important;
+
+}
+.dropdown{
+  width: 200px;
+  background-color: white !important;
+  color: black !important;
+ text-align: left !important;
+}
+table {
+  border: 2px solid black;
+}
+td{
+  border: 2px solid black;
 }
